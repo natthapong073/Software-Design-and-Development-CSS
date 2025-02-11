@@ -232,42 +232,10 @@ div > p {
 
 ### ผลการทดลอง
 ```html
-[<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <style>
-        nav {
-            background-color: #333;
-            padding: 15px;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav > ul > li {
-            margin: 0 10px;
-        }
-
-        .menu-item {
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-
-        .menu-item:hover {
-            background-color: #555;
-            border-radius: 3px;
-        }
-
-        #active {
-            background-color: #007bff;
-            border-radius: 3px;
-        }
-    </style>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <nav>
@@ -280,7 +248,6 @@ div > p {
     </nav>
 </body>
 </html>
-]
 ```
 [![image](https://github.com/user-attachments/assets/f57a484a-c4bd-463a-9e01-bcc9209b664d)
 ]
