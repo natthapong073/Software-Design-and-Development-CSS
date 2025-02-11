@@ -387,9 +387,170 @@ background-size: cover;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
+[<!DOCTYPE html>
+<html>
+<head>
+    <title>APPLE WATCH PRODUCT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav > ul > li {
+            margin: 0 10px;
+        }
+
+        .menu-item {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        .menu-item:hover {
+            background-color: #555;
+            border-radius: 3px;
+        }
+        
+        #active {
+            background-color: #007bff;
+            border-radius: 3px;
+        }
+
+        .product-card {
+            width: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        .product-image img {
+            width: 300px;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 15px;
+        }
+
+        .product-title {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            color: #007bff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .product-description {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .product-button {
+            display: block;
+            background: linear-gradient(to right, #007bff, #0056b3);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+        .product-button:hover {
+            background: linear-gradient(to right, #0056b3, #003980);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>APPLE WATCH PRODUCT</h1>
+
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/11.jpg" alt="Apple Watch Series 1">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 1</h2>
+            <p class="product-price">฿8,999</p>
+            <p class="product-description">
+                Apple Watch Series 1 มีฟังก์ชันการติดตามสุขภาพที่ยอดเยี่ยมและดีไซน์หรูหรา
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/22.jpg" alt="Apple Watch Series 2">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 2</h2>
+            <p class="product-price">฿12,499</p>
+            <p class="product-description">
+                Apple Watch Series 2 มีความสามารถในการกันน้ำและฟังก์ชัน GPS ในตัว
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/33.jpg" alt="Apple Watch Series 3">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 3</h2>
+            <p class="product-price">฿15,999</p>
+            <p class="product-description">
+                Apple Watch Series 3 มาพร้อมกับฟังก์ชันการติดตามกิจกรรมและสุขภาพที่ครบครัน
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/44.jpg" alt="Apple Watch Series 4">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 4</h2>
+            <p class="product-price">฿19,999</p>
+            <p class="product-description">
+                Apple Watch Series 4 มีหน้าจอใหญ่ขึ้นและฟังก์ชันวัดคลื่นไฟฟ้าหัวใจ (ECG)
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+</body>
+</html>
+]
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+[![image](https://github.com/user-attachments/assets/b9b5a40a-3aec-4666-ad2c-ca6bc9f1a774)
+]
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
