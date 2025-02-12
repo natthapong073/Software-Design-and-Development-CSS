@@ -1205,12 +1205,183 @@ h1 {
 
 ### ผลการทดลอง
 ```html
-[วางโค้ด HTML ที่นี่]
+[<!DOCTYPE html>
+<html>
+<head>
+    <title>APPLE WATCH PRODUCT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>APPLE WATCH PRODUCT</h1>
+
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/11.jpg" alt="Apple Watch Series 1">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 1</h2>
+            <p class="product-price">฿8,999</p>
+            <p class="product-description">
+                Apple Watch Series 1 มีฟังก์ชันการติดตามสุขภาพที่ยอดเยี่ยมและดีไซน์หรูหรา
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/22.jpg" alt="Apple Watch Series 2">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 2</h2>
+            <p class="product-price">฿12,499</p>
+            <p class="product-description">
+                Apple Watch Series 2 มีความสามารถในการกันน้ำและฟังก์ชัน GPS ในตัว
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/33.jpg" alt="Apple Watch Series 3">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 3</h2>
+            <p class="product-price">฿15,999</p>
+            <p class="product-description">
+                Apple Watch Series 3 มาพร้อมกับฟังก์ชันการติดตามกิจกรรมและสุขภาพที่ครบครัน
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/products/44.jpg" alt="Apple Watch Series 4">
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Apple Watch Series 4</h2>
+            <p class="product-price">฿19,999</p>
+            <p class="product-description">
+                Apple Watch Series 4 มีหน้าจอใหญ่ขึ้นและฟังก์ชันวัดคลื่นไฟฟ้าหัวใจ (ECG)
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+</body>
+</html>
+]
 ```
 ```css
-[วางโค้ด CSS ที่นี่]
+[/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a#active {
+    color: #ff6347;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 5%; /* ปรับขนาดรูปภาพให้เล็กลง */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-info {
+    padding: 1em;
+}
+
+.product-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #ff6347;
+}
+
+.product-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.product-button {
+    display: inline-block;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.product-button:hover {
+    background-color: #e5533d;
+}
+]
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+[![image](https://github.com/user-attachments/assets/4cd98846-1f82-47cf-afe3-599f9c524fb5)
+]
 
 
 ### ตัวอย่างการใช้งาน: การสร้างเลย์เอาต์ Modern Dashboard
